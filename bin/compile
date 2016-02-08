@@ -7,6 +7,9 @@ TOOL=""
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
+echo "BOOM!"
+exit 1
+
 # Go releases have moved to a new URL scheme
 # starting with Go version 1.2.2. Return the old
 # location for known old versions and the new
